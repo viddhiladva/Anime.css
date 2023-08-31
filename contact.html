@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Anime.CSS</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link rel="Icon" href="img/fav-logo.png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Fontswesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body onload="spinner()">
+    <div class="container-fluid bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-1 py-lg-0" style="color:#0a1d37">
+                <a href="index.html" class="navbar-brand p-0">
+                    <img class="d-lg-inline-block d-none" src="img/logo2.png" alt="">
+                    <img class="d-lg-none d-inline-block" src="img/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link ">Home</a>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle show" href="animation.html" id="navbarDropdown"
+                                role="button" aria-haspopup="true" aria-expanded="true">Animation</a>
+                            <div class="dropdown-menu animate__animated animate__zoomIn"
+                                aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="Text-anime/text.html">Text</a>
+                                <a class="dropdown-item" href="Button-anime/button.html">Button</a>
+                                <a class="dropdown-item" href="Loader-anime/loader.html">Loader</a>
+                            </div>
+                        </div>
+                        <a href="team.html" class="nav-item nav-link">About</a>
+                        <a href="#" class="nav-item nav-link active">Contact</a>
+                    </div>
+                    <a href="https://github.com/jaiminmalaviya/Anime.css" target="_blank" style="color: white;
+                    font-size: 25px;
+                    padding-left: 2%;"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </nav>
+            <div class="container-fluid py-5 bg-primary hero-header mb-5 pb-1">
+                <div class="container my-4 py-5 px-lg-5">
+                    <div class="row g-5 py-5">
+                        <div class="col-12 text-center">
+                            <h1 class="text-white animated zoomIn">Contact Us</h1>
+                            <hr class="bg-white mx-auto mt-0" style="width: 90px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5">
+            <div class="container px-lg-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp"
+                            data-wow-delay="0.1s">
+                            <h6 class="position-relative d-inline text-primary ps-4">Contact Us</h6>
+                            <h2 class="mt-2">Contact For Any Query</h2>
+                        </div>
+                        <div class="wow fadeInUp" data-wow-delay="0.3s">
+                            <form method="POST" name="contact" data-netlify="true">
+                                <input type="hidden" name="form-name" value="contact">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                                            <label for="name">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" name="email"
+                                                placeholder="Your Email">
+                                            <label for="email">Your Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a message here"
+                                                id="message" name="message" style="height: 150px"></textarea>
+                                            <label for="message">Post Your Query...</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-primary text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-2 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-9 mt-md-5 mt-3">
+                        <img width=200 height=70 src="img/logo2.png" alt=""></br></br>
+                        <p style="text-align: justify;">Designed and built with all the love in </br> the world by the
+                            <a href="team.html" style="color: white;text-decoration: underline;">Core Team</a> helped
+                            by
+                            our mentor.
+                        </p>
+
+                        <hr>
+                        <p class="d-md-block d-none">Copyright © 2023 <a href="index.html"
+                                style="color: white;text-decoration: underline;">ANIME.CSS.</a> All Rights Reserved.
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mt-md-5 mt-3">
+                        <h5 class="text-white mb-4">Popular Link</h5>
+                        <a class="btn btn-link" href="index.html">Home</a>
+                        <a class="btn btn-link" href="animation.html">Animation</a>
+                        <a class="btn btn-link" href="team.html">About</a>
+                        <a class="btn btn-link" href="contact.html">Contact</a>
+                    </div>
+                    <div class="col-12 d-md-none mt-4">
+                        <p>Copyright © 2023 <a href="index.html"
+                                style="color: white;text-decoration: underline;">ANIME.CSS.</a> All
+                            Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
